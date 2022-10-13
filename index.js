@@ -11,7 +11,7 @@ const searchFun = () => {
             let textValue = td.textContent || td.innerHTML;
 
             if(textValue.toUpperCase().indexOf(filter) > -1) {
-                tr[1].style.display = "";
+                tr[i].style.display = "";
             } else {
                 tr[i].style.display = "none";
             }
